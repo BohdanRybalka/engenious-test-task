@@ -1,14 +1,22 @@
 {
   "name": "engenious-test-task",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000e\u0000n\u0000g\u0000e\u0000n\u0000i\u0000o\u0000u\u0000s\u0000-\u0000t\u0000e\u0000s\u0000t\u0000-\u0000t\u0000a\u0000s\u0000k\u0000\r\u0000 \u0000",
+  "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "run:tests:headless": "npx playwright test --project=chromium"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.49.0",
     "@types/node": "^22.10.1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "@types/dotenv": "^8.2.3",
+    "dotenv": "^16.4.5",
+    "faker": "^6.6.6"
   }
 }
